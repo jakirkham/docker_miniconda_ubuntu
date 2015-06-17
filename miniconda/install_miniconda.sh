@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Install wget to download the miniconda setup script.
+apt-get install -y wget
+
 # Download and configure conda.
 wget http://repo.continuum.io/miniconda/Miniconda-latest-Linux-x86_64.sh -O miniconda.sh
 bash miniconda.sh -b -p /opt/conda
