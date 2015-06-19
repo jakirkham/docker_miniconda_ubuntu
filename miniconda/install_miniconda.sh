@@ -24,3 +24,4 @@ source activate root
 conda update conda
 conda install conda-build
 conda install binstar
+conda install jinja2
