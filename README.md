@@ -17,3 +17,7 @@ If one wishes to develop this repo, building will need to be performed manually.
 # Testing
 
 No direct testing of `conda` is performed. However, some basic installation and upgrading occurs, which should hopefully verify that it is working. Also, as this is pretty well tested by the team at Continuum, it is believed not to be at as serious of a risk.
+
+# Usage
+
+Once an image is acquired either from one of the provided builds or manually, the image is designed to provide a preconfigured shell environment. Simply run `docker run -it <NAME>`. This will start up `bash`. In the case of an automated build, `<NAME>` is `jakirkham/ubuntu_conda`.
