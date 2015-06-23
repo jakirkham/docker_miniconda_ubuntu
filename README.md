@@ -1,3 +1,5 @@
 [![](https://badge.imagelayers.io/jakirkham/ubuntu_conda:latest.svg)](https://imagelayers.io/?images=jakirkham/ubuntu_conda:latest 'Get your own badge on imagelayers.io')
 
-This is currently undergoing heavy revision. This is an automated Docker build, whose repo is here <https://registry.hub.docker.com/u/jakirkham/ubuntu_conda>.
+# Purpose
+
+In order to provide a simple portable test environment, this repo contains what is necessary to build a Ubuntu 12 based image using Docker. In addition, it provides a copy of [`binstar`]( http://binstar-client.readthedocs.org/en/latest/index.html ) and [`conda`]( http://conda.pydata.org/ ) with some extensions for building.
