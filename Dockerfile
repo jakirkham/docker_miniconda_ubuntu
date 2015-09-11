@@ -12,4 +12,8 @@ ENV PATH=/opt/conda/bin:$PATH \
     CONDA_DEFAULT_ENV=root \
     CONDA_ENV_PATH=/opt/conda
 
+ADD docker /usr/share/docker
+RUN /usr/share/docker/install_tini.sh
+
+ENTRYPOINT [ "/usr/bin/tini", "--" ]
 CMD [ "/bin/bash" ]
